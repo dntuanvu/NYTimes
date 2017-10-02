@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class Multimedia {
+    
+    var type: String!
+    var subtype: String!
+    var url: String!
+    var height: Int!
+    var width: Int!
+    var rank: Int!
+    
+}

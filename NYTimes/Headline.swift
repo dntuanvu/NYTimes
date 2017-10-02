@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class Headline {
+    
+    var main: String!
+    var kicker: String!
+    var print_headline: String!
+    
+}

@@ -33,4 +33,12 @@ class NYTimesTests: XCTestCase {
         }
     }
     
+    /*func testAndAndMultiply() {
+        let num1 = 2
+        let num2 = 4
+        let num3 = 6
+        let expected = 36
+        let result = math.addAndMultiply(num1, num2, num3)
+        XCTAssert(expected == result, "Expected \(expected) got \(result)")
+    }*/
 }

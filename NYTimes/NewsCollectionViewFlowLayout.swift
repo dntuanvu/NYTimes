@@ -6,4 +6,20 @@
 //  Copyright © 2017 Home. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class NewsCollectionViewFlowLayout : UICollectionViewFlowLayout {
+    override init() {
+        super.init()
+        if #available(iOS 10.0, *) {
+            estimatedItemSize = UICollectionViewFlowLayoutAutomaticSize
+        } else {
+            // Fallback on earlier versions
+        }
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+}

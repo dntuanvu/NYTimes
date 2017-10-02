@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+class Keywords {
+    
+    var isMajor: String!
+    var rank: Int!
+    var name: String!
+    var value: String!
+    
+}
